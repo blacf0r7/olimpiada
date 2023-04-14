@@ -1,0 +1,79 @@
+# zadacha 1
+found = 20
+get = 3650
+vorona = 156
+itog = found + get - vorona
+print(itog)
+
+# zadacha 2
+let = int(input())
+if let == 10:
+    print("- Что будет, если клюква наденет штаны?")
+    print("–Брюква!")
+elif let == 11:
+    print("- Что скала зелёная виноградина синей?")
+    print("– Дыши!– Дыши!")
+elif let == 12:
+    print("Что сказал 0 цифре 8?")
+    print("– Привет, ребята!")
+elif let == 13:
+    print("Что такое сидит на потолке и хохочет?")
+    print("– Муха-хохотуха!")
+else:
+    print("ОШИБКА")
+
+# zadacha 3
+mass = ["Паучьи лапки", "жабий палец", "глаз тритона", "крыло летучей мыши", "жир слизня", 'кожа змеи' ]
+mass.append('Мандрагора')
+mass.append("Болиголов")
+mass.append("Болотный газ")
+for i in range(len(mass)):
+    print(mass[i])
+
+
+# zadacha 4
+ves = abs(int(input()))
+for i in range(1,15):
+    ves += 1
+    ves == ves * 0.165
+    print(ves)
+
+# zadacha 5
+banki = 0
+for i in range(0,52):
+    banki += 2
+    print(banki)
+
+# zadacha 6
+import turtle
+turtle1 = turtle.Turtle()
+turtle2 = turtle.Turtle()
+turtle3 = turtle.Turtle()
+turtle4 = turtle.Turtle()
+
+turtle1.backward(200)
+turtle1.forward(200)
+turtle1.left(90)
+turtle1.forward(100)
+turtle1.right(90)
+turtle1.forward(100)
+
+turtle2.forward(20)
+turtle2.left(90)
+turtle2.forward(50)
+turtle2.right(90)
+turtle2.forward(50)
+
+turtle3.forward(20)
+turtle3.right(90)
+turtle3.forward(50)
+turtle3.left(90)
+turtle3.forward(50)
+
+turtle4.right(90)
+turtle4.forward(100)
+turtle4.left(90)
+turtle4.forward(100)
+
+turtle.exitonclick()
+# zadachi 7
